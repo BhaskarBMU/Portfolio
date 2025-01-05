@@ -14,6 +14,12 @@ html {
   --imp-text-color: #c770f0;
 }
 
+/* a {
+  text-decoration: none;  /* Removes underline */
+  /* color: purple;  Sets text color to purple */
+/* } */
+
+
 .purple {
   color: var(--imp-text-color) !important;
 }
