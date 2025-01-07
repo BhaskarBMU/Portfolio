@@ -33,6 +33,20 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
+              title="Savor Heaven"
+              description=" Developed a dynamic and user-friendly food-ordering application using the MERN
+ stack, enabling users to explore menus, manage their carts efficiently, and
+ complete transactions securely Implemented an online payment gateway to facilitate smooth transactions,
+ improving user experience and satisfaction"
+              ghLink="https://github.com/BhaskarBMU/Savor-Heaven/"
+              demoLink="https://savor-haven.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
               title="3DIFY"
               description="Developed a React.js website using the MERN stack to transform multilingual text into multi-view images and 3D models, improving accessibility and engagement.Built custom AI models for multilingual prompts, generating tailored 3D outputs based on user preferences to enhance
  interactivity."
